@@ -11,7 +11,7 @@ import Carousel from "react-native-reanimated-carousel";
 import OutlineButton from "../components/ui/OutlineButton";
 import { data } from "../constants/onboardindData";
 
-function Onboarding() {
+function Onboarding({navigation}) {
   const { width } = Dimensions.get("window");
 
   const carouselRef = useRef(null);
@@ -59,7 +59,7 @@ function Onboarding() {
                 animated: true,
               });
             } else {
-              console.log("Onboarding Complete!"); // Replace this with navigation logic
+              navigation.navigate('Welcome') 
             }
           }}
         >
@@ -74,6 +74,7 @@ export default Onboarding;
 
 const styles = StyleSheet.create({
   container: {
+    marginTop: 50,
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
@@ -98,7 +99,7 @@ const styles = StyleSheet.create({
     color: "#625d5d",
     marginBottom: 10,
     textAlign: "center",
-    fontFamily: "Nunito",
+    fontFamily: "Nunito-Black",
   },
   text: {
     fontSize: 16,
