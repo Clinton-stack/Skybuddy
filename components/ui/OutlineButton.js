@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     opacity: 0.5,
   },
   buttonText: {
+    fontFamily: "Nunito-Bold",
     color: "#f7ebec",
     fontSize: 14,
   },

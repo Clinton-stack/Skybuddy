@@ -1,0 +1,51 @@
+export const weatherData = [
+    {
+        id: 1,
+        day: "Mon",
+        weatherType: "Rain",
+        temp: "22°C",
+        wind: "1-5",
+    },
+    {
+        id: 2,
+        day: "Tue",
+        weatherType: "Clear",
+        temp: "22°C",
+        wind: "1-5",
+    },
+    {
+        id: 3,
+        day: "Wed",
+        weatherType: "Clouds",
+        temp: "22°C",
+        wind: "1-5",
+    },
+    {
+        id: 4,
+        day: "Thu",
+        weatherType: "Rain",
+        temp: "22°C",
+        wind: "1-5",
+    },
+    {
+        id: 5,
+        day: "Fri",
+        weatherType: "Rain",
+        temp: "22°C",
+        wind: "1-5",
+    },
+    {
+        id: 6,
+        day: "Sat",
+        weatherType: "Clear",
+        temp: "22°C",
+        wind: "1-5",
+    },
+    {
+        id: 7,
+        day: "Sun",
+        weatherType: "Clouds",
+        temp: "22°C",
+        wind: "1-5",
+    },
+]

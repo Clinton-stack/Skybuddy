@@ -23,7 +23,7 @@ const Welcome = ({ navigation }) => {
           <Text style={styles.title}>Welcome to SkyBuddy</Text>
           <Text style={styles.subtitle}>Your Weather Companion</Text>
           <View style={styles.buttonContainer}>
-            <OutlineButton onPress={() => navigation.naviagte("Login")}>
+            <OutlineButton onPress={() => navigation.navigate("SignUp")}>
               SIGN UP
             </OutlineButton>
           </View>
